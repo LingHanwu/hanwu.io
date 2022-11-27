@@ -61,10 +61,7 @@ export default hopeTheme({
     blog: {
       autoExcerpt: true,
     },
-
-    // If you don't need comment feature, you can remove following option
-    // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-    // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
+    //注释
     comment: {
       /**
        * Using Giscus
@@ -88,7 +85,7 @@ export default hopeTheme({
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
-    // Disable features you don't want here
+    // md 禁用这里不想要的功能
     mdEnhance: {
       align: true,
       attrs: true,
@@ -194,6 +191,8 @@ export default hopeTheme({
     },
 
 
+    // 搜索
+    
 
   },
   // 插件结束

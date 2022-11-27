@@ -251,6 +251,23 @@ hyRequest.get({
 
 
 
+### 跨域
+
+vite.config.js
+
+```js
+  server: {
+    proxy: {
+      // 第一个代理后端地址
+      "^/api/.*": {
+        target: "http://127.0.0.1:3000",
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, "")
+      },
+    }
+  },
+```
+
 
 
 

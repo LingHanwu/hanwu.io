@@ -1896,11 +1896,7 @@ public interface PasswordEncoder {
 - matches 用来比较密码的方法
 - upgradeEncoding 用来给密码进行升级的方法
 
-默认提供加密算法如下:
 
-![image-20220127162622771](SpringSecurity.assets/image-20220127162622771.png)
-
-![image-20220127162759461](SpringSecurity.assets/image-20220127162759461.png)
 
 ## DelegatingPasswordEncoder
 
